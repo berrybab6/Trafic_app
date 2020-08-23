@@ -9,14 +9,16 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+        body: SafeArea(
+      child: Container(
         height: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
+            fit: BoxFit.cover,
             image: AssetImage("assets/img/cyan2.jpg"),
           ),
         ),
       ),
-    );
+    ));
   }
 }

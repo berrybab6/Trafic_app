@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "SignUp Page",
+      //title: "SignUp Page",
       theme: ThemeData(primaryColor: Colors.cyan),
       initialRoute: "SignIn",
       routes: {
